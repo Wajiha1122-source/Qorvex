@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./experience.css";
 import "./premium.css";
+import "./motion.css";
 
 export const metadata: Metadata = {
   title: "Qorvex Solutions — Engineering Digital Excellence",
