@@ -4,3 +4,17 @@
 @media(max-width:900px){.product-machine{width:78vw;translate:-45% -50%}.assembly-copy{top:10%}.factory-section{height:280vh}.factory-rail article{width:64vw;min-width:64vw}}
 @media(max-width:560px){.assembly{height:auto;padding:100px 16px}.assembly-sticky{height:auto;position:relative;overflow:visible;display:flex;flex-direction:column}.assembly-sticky>header,.assembly-copy,.assembly-rail,.assembly-progress{position:relative;inset:auto;width:100%;margin-bottom:28px}.assembly-sticky>header{display:flex}.assembly-copy h2{font-size:50px}.product-machine{position:relative;left:auto;top:auto;translate:none;width:100%;height:510px;transform:none!important}.machine-product{grid-template-columns:80px 1fr}.machine-product aside{padding:18px 9px;gap:18px;font-size:7px}.machine-product>main{padding:14px}.machine-top span{display:none}.machine-metrics strong{font-size:12px}.machine-chart{height:125px}.creative{width:100px;height:145px}.c-one{left:2%}.c-two{right:2%}.campaign-center{width:120px;height:260px}.analytics-layer{padding:12px}.analytics-layer>div{padding:9px}.analytics-layer strong{font-size:17px}.assembly-rail{display:none}.factory-section{height:auto}}
 @media(prefers-reduced-motion:reduce){.assembly{height:auto;padding:100px 3vw}.assembly-sticky{height:auto;position:relative}.product-machine{position:relative;left:50%;top:auto;margin-top:170px}.assembly-progress{display:none}}
+
+/* Stable cinematic sequence: enough travel to assemble without leaving dead screens. */
+.assembly{height:310vh}
+.product-machine{top:48%}
+.analytics-layer>span{left:5%;right:5%;bottom:10%;height:45%;background:linear-gradient(135deg,transparent 0 47%,#aa7cff 48% 49%,#7f47e52b 50% 100%);clip-path:polygon(0 90%,16% 81%,34% 84%,52% 58%,70% 47%,84% 28%,100% 7%,100% 100%,0 100%);box-shadow:0 0 24px #7b3fff}
+
+/* Factory is intentionally normal-flow so all six stages are always reachable. */
+.factory-section{height:auto!important;min-height:0!important}
+.factory-sticky{position:relative!important;height:auto!important;top:auto!important;overflow:visible!important}
+.factory-heading{position:relative!important;left:auto!important;top:auto!important}
+.factory-rail{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;width:min(1180px,100%)!important;padding:0!important;transform:none!important}
+.factory-rail article{width:auto!important;min-width:0!important}
+@media(max-width:900px){.factory-section{height:auto!important}.factory-rail{grid-template-columns:repeat(2,minmax(0,1fr))!important}.factory-rail article{width:auto!important;min-width:0!important}}
+@media(max-width:560px){.factory-rail{grid-template-columns:1fr!important}}
