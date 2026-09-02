@@ -3,6 +3,8 @@ import "./globals.css";
 import "./experience.css";
 import "./premium.css";
 import "./motion.css";
+import "./cinematic.css";
+import "./factory.css";
 
 export const metadata: Metadata = {
   title: "Qorvex Solutions — Engineering Digital Excellence",
