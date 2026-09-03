@@ -8,6 +8,8 @@ import "./factory.css";
 import "./assembly.css";
 import "./software-assembly.css";
 import "./motion-polish.css";
+import "./motion-fixes.css";
+import "./stage-sequence.css";
 
 export const metadata: Metadata = {
   title: "Qorvex Solutions — Engineering Digital Excellence",

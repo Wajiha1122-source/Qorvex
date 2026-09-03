@@ -1,0 +1,9 @@
+.assembly-steps article:last-child{grid-column:auto!important}
+.assembly-steps article:nth-child(1) .stage-icon,.assembly-steps article:nth-child(1) .stage-icon:before,.assembly-steps article:nth-child(1) .stage-icon:after,.assembly-steps article:nth-child(1) .stage-icon svg{animation-delay:0s}
+.assembly-steps article:nth-child(2) .stage-icon,.assembly-steps article:nth-child(2) .stage-icon:before,.assembly-steps article:nth-child(2) .stage-icon:after,.assembly-steps article:nth-child(2) .stage-icon svg{animation-delay:.35s}
+.assembly-steps article:nth-child(3) .stage-icon,.assembly-steps article:nth-child(3) .stage-icon:before,.assembly-steps article:nth-child(3) .stage-icon:after,.assembly-steps article:nth-child(3) .stage-icon svg{animation-delay:.7s}
+.assembly-steps article:nth-child(4) .stage-icon,.assembly-steps article:nth-child(4) .stage-icon:before,.assembly-steps article:nth-child(4) .stage-icon:after,.assembly-steps article:nth-child(4) .stage-icon svg{animation-delay:1.05s}
+.assembly-steps article:nth-child(5) .stage-icon,.assembly-steps article:nth-child(5) .stage-icon:before,.assembly-steps article:nth-child(5) .stage-icon:after,.assembly-steps article:nth-child(5) .stage-icon svg{animation-delay:1.4s}
+.assembly-steps article:nth-child(6) .stage-icon,.assembly-steps article:nth-child(6) .stage-icon:before,.assembly-steps article:nth-child(6) .stage-icon:after,.assembly-steps article:nth-child(6) .stage-icon svg{animation-delay:1.75s}
+.assembly-steps article:nth-child(7) .stage-icon,.assembly-steps article:nth-child(7) .stage-icon:before,.assembly-steps article:nth-child(7) .stage-icon:after,.assembly-steps article:nth-child(7) .stage-icon svg{animation-delay:2.1s}
+@media(max-width:900px){.assembly-steps article:last-child{grid-column:auto!important}}
